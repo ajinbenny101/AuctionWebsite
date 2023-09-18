@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Webpage.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script  src="Webpage.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <title>Auction Website</title>
+</head>
+
+<body>
+  <div id="page-container">
+
+    <header>
+      <div id="logo-container">
+        <img id="logo" src="logo.png">
+      </div>
+
+      <div id="search-bar">
+      <input type="search" placeholder="Search...">
+      <button type="submit">Search</button>
+      </div>
+    </header>
+
+    <nav>
+      <ul id="navi">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Fashion</a></li>
+        <li><a href="#">Electronic</a></li>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">Home and Garden</a></li>
+        <li><a href="#">Collectables</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+
+
+    <div id="features">
+      <div class="title-container">
+        <h1>Featured Sales &amp; Events</h1>
+        <h2><a href="#">See All <img src="arrow.png" alt="arrow"></a></h2>
+      </div>
+      <div class="section-container">
+        <div class="box">
+          <div class="image-container">
+            <img src="https://picsum.photos/id/1/225/250" alt="Image 1">
+            <div class="small-images">
+              <img src="https://picsum.photos/id/2/100/100" alt="Image 4">
+              <img src="https://picsum.photos/id/3/100/100" alt="Image 5">
+            </div>
+          </div>
+          <h2><a href="#"> Save up to 60%</a></h2>
+          <p>Lorem ipsum dolor sit amet ultrices blandit erat sed</p>
+        </div>
+        <div class="box">
+          <div class="image-container">
+            <img src="https://picsum.photos/id/45/225/250" alt="Image 2">
+            <div class="small-images">
+              <img src="https://picsum.photos/id/44/100/100" alt="Image 6">
+              <img src="https://picsum.photos/id/48/100/100" alt="Image 7">
+            </div>
+          </div>
+          <h2><a href="#"> 10% Off</a></h2>
+          <p>Sed ultrices blandit erat sed fermentum</p>
+        </div>
+        <div class="box">
+          <div class="image-container">
+            <img src="https://picsum.photos/id/35/225/250" alt="Image 3">
+            <div class="small-images">
+              <img src="https://picsum.photos/id/38/100/100" alt="Image 8">
+              <img src="https://picsum.photos/id/39/100/100" alt="Image 9">
+            </div>
+          </div>
+          <h2><a href="#"> Essential Deals!</a></h2>
+          <p>Sed scelerisque lacus et condimentum congue</p>
+        </div>
+      </div>
+    </div>
+    
+    <div id="pick">
+      <div class="pick-title-container">
+        <h1>Pick of the Day</h1>
+      </div>
+      <div class="pick-section-container">
+        <div class="pick-box">
+          <div class="pick-image-container">
+            <img src="https://picsum.photos/id/199/150/150" alt="Image 1">
+          </div>
+          <h3><a href="#"> Lorem Ipsum</a></h3>
+          <p>£2899.80</p>
+          <div class="countdown-timer" data-date="March 17, 2023 01:30:00"></div>
+        </div>
+        <div class="pick-box">
+          <div class="pick-image-container">
+            <img src="https://picsum.photos/id/200/150/150" alt="Image 2">
+          </div>
+          <h3><a href="#"> Lorem Ipsum</a></h3>
+          <p>£652.94</p>
+          <div class="countdown-timer" data-date="March 21, 2023 10:00:00"></div>
+        </div>
+        <div class="pick-box">
+          <div class="pick-image-container">
+            <img src="https://picsum.photos/id/300/150/150" alt="Image 3">
+          </div>
+          <h3><a href="#"> Lorem Ipsum</a></h3>
+          <p>£120.59</p>
+          <div class="countdown-timer" data-date="March 17, 2023 18:30:00"></div>
+        </div>
+        <div class="pick-box">
+          <div class="pick-image-container">
+            <img src="https://picsum.photos/id/39/150/150" alt="Image 3">
+          </div>
+          <h3><a href="#"> Lorem Ipsum</a></h3>
+          <p>£758.46</p>
+          <div class="countdown-timer" data-date="March 17, 2023 12:00:00"></div>
+        </div>
+        <div class="pick-box">
+          <div class="see-all">
+            <h2><a href="#">See All <img src="arrow.png" alt="arrow"></a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div id="trending">
+      <div class="trending-title-container">
+        <h1>Trending</h1>
+        <h2><a href="#">See All Trends<img src="arrow.png" alt="arrow"></a></h2>
+      </div>
+      <div class="section-container">
+        <div class="box">
+          <div class="image-container">
+            <img src="https://picsum.photos/id/156/325/250" alt="Image 1">
+          </div>
+          <h1>1</h1>
+          <h2><a href="#"> Lorem ipsum</a></h2>
+          <p id="views">65,125 views</p>
+        </div>
+        <div class="box">
+          <div class="image-container">
+            <img src="https://picsum.photos/id/182/325/250" alt="Image 2">
+          </div>
+          <h1>2</h1>
+          <h2><a href="#"> Lorem ipsum</a></h2>
+          <p id="views">51,578 views</p>
+        </div>
+        <div class="box">
+          <div class="image-container">
+            <img src="https://picsum.photos/id/163/325/250" alt="Image 3">
+          </div>
+          <h1>3</h1>
+          <h2><a href="#"> Lorem ipsum</a></h2>
+          <p id="views">49,239 views</p>
+        </div>
+      </div>
+    </div>
+      
+      <footer>
+            <div class="footer-content">
+              <p>&copy; 2023 My Website</p>
+              <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </footer>
+      
+  </div>
+</body>
+
+</html>
